@@ -1,1 +1,1 @@
-# EvilEyes Stealer
+# 🧿 EvilEyes Stealer 🧿
