@@ -34,8 +34,9 @@ python3 stealer.py
 
 ## Bugs and enhancements
 
-For bug reports or enhancements, please open an [issue](https://github.com/capture0x/EvilEyes-Stealer/issues) here.
 **This script made for educational purposes only, any illegal use is not accepted**
+
+For bug reports or enhancements, please open an [issue](https://github.com/capture0x/EvilEyes-Stealer/issues) here.
 
 **Copyright 2023**
 
