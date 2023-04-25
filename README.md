@@ -5,7 +5,6 @@
 
 #### Written by TMRSWRR
 #### Version 1.0.0
-All in one tools for **CRYPTOLOGY**.
 
 Instagram: [Capture the Root](https://www.instagram.com/capturetheroot/)
 
