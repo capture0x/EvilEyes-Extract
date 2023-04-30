@@ -26,7 +26,9 @@ pip3 install -r requirements.txt
 ## Usage
 
 ```bash
-pyinstaller -n "Test3" -F -w --distpath . .\final.py
+pip3 install pyinstaller
+
+pyinstaller -n "Test3" -F -w --distpath --icon=test.ico . .\stealer.py
 ```
 Wait for the program to finish. The extracted information will be saved to the following files:
 
