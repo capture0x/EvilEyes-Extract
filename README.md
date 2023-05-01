@@ -1,4 +1,4 @@
-# 🧿     &nbsp;         EvilEyes Stealer      &nbsp; 🧿
+# 🧿     &nbsp;         EvilEyes Extract      &nbsp; 🧿
 
 <img src="https://i.imgur.com/E700C3L.png" width="60%"></img>
 
@@ -8,6 +8,10 @@
 
 Instagram: [Capture the Root](https://www.instagram.com/capturetheroot/)
 
+## 📹 How to use 📹
+[![How to use EvilEyes Extract ](https://i.imgur.com/F1lOlik.png)](https://youtu.be/VB8lPiC34Yo)
+
+Click on the image...
 
 ## 🧰  Features  🧰
 
@@ -19,8 +23,8 @@ This is a Python program that extracts saved passwords and autofill information 
 
 
 ```bash
-git clone https://github.com/capture0x/EvilEyes-Stealer
-cd EvilEyes-Stealer
+git clone https://github.com/capture0x/EvilEyes-Extract
+cd EvilEyes-Extract
 pip3 install -r requirements.txt
 unzip icons.zip
 ```
@@ -28,7 +32,7 @@ unzip icons.zip
 
 ```bash
 pip3 install pyinstaller
-pyinstaller -n "Test3" -F -w  --icon=test.ico --distpath  . .\stealer.py
+pyinstaller -n "Test3" -F -w  --icon=test.ico --distpath  . .\extract.py
 ```
 Wait for the program to finish. The extracted information will be saved to the following files:
 
