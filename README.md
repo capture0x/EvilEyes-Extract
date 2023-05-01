@@ -1,6 +1,6 @@
 # 🧿     &nbsp;         EvilEyes Extract      &nbsp; 🧿
 
-<img src="https://i.imgur.com/E700C3L.png" width="60%"></img>
+<img src="https://i.imgur.com/E700C3L.png" width="80%"></img>
 
 
 #### Written by TMRSWRR
